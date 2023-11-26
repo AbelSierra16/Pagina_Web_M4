@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portada</title>
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <header>
-
-        <img src="./img/banner-liga-finetwork.png" alt="banner-liga-finetwork">
-
+        <div class="banner">
+            <img src="./img/banner-liga-finetwork.png" alt="banner-liga-finetwork">
+        </div>
         <nav>
             <ul>
+                <li><a href="./index.html">Inici</a></li>
                 <li><a href="./web/classif.html">Classificació</a></li>
                 <li><a href="./web/resultats.html">Resultats</a></li>
                 <li><a href="./web/galeria.html">Galeria Audiovisual</a></li>
@@ -20,93 +23,131 @@
         </nav>
     </header>
     <main>
-    <article>
-        <h2>Destacados</h2>
-            <div>
-                <img src="./img/logo-villareal.png" alt="Logo-Villareal">
+        <div class="seccion">
+        <article id="destacados">
+            <h2>Destacados</h2>
+                <div>
+                    <img src="./img/logo-villareal.png" alt="Logo-Villareal">
+                </div>
+            
+                <div class="info">
+                    <ul>
+                        <li><a href="./web/infogeneral.html">· Informació General</a></li>
+                        <li><a href="./web/planter.html">· Planter</a></li>
+                    </ul>
+                </div>
+        </article>
+        <div class="tablero-noticias">
+            
+            <article class="tablero-superior">
+                <h2>Ultimes noticies Lliga Finetwork</h2>
+                <figure>
+                    <img src="./img/noticia-derrota-gerona.jpg" alt="Derrota-contra-el-Girona">
+                    <figcaption>Derrota contra el Girona (1-2)</figcaption>
+                </figure>
+            </article>
+            <div class="tablero-superior">
+                    <figure>
+                        <img src="./img/carnet-socio.jpg" alt="Carnet-Socio">
+                    </figure>
             </div>
-        
+        </div>
             <div>
-                <ul>
-                    <li><a href="./web/infogeneral.html">Informació General</a></li>
-                    <li><a href="./web/planter.html">Planter</a></li>
-                </ul>
+                <figure class="tablero-inferior">
+                    <img src="./img/noticia.jpg" alt="Noticia">
+                    <figcaption>
+                      El CD Alba Fundacion, primer escollo en la copa de la reina
+                    </figcaption>
+                </figure>
             </div>
-        
-    </article>
-    <aside>
-        <h2>Ultimes noticies Lliga Finetwork</h2>
-        <figure>
-            <img src="./img/noticia-derrota-gerona.jpg" alt="Derrota-contra-el-Girona">
-            <figcaption>Derrota contra el Girona (1-2)</figcaption>
-        </figure>
-    </aside>
+            <div class="tablero-inferior">
+                <a href="./web/planter.html">
+                    <figure>
+                        <img src="./img/noticia-2.jpg" alt="Noticia-2">
+                        <figcaption>
+                            Esta es la nueva plantilla del equipo
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="tablero-inferior">
+                <figure>
+                    <img src="./img/noticia-3.jpg" alt="Noticia-3">
+                    <figcaption>
+                        Estas jugadoras se despiden del equipo
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="tablero-inferior">
+                <figure>
+                    <img src="./img/nuevo-fichaje.jpg" alt="Nuevo-Fichaje">
+                    <figcaption>
+                        Nuevo fichaje promesa
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
     </main>
     <footer>
-        <table>
-
-            <caption>La liga</caption>
-                <tr> 
-                    <th>
-                        Club
-                    </th>
-                    <th>
-                        Primer equipo
-                    </th>
-                    <th>
-                        Fans
-                    </th>
-                    <th>
-                        Actualidad
-                    </th>
-                    <th>
-                        Mas equipos
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        Datos del club
-                    </td>
-                    <td>
-                        Plantilla
-                    </td>
-                    <td>Abonate</td>
-                    <td>
-                        Noticias
-                    </td>
-                    <td>
-                        Villareal Masculino
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Contacto
-                    </td>
-                    <td>
-                        Resultados
-                    </td>
-                    <td>
-                        Atencion al abonado
-                    </td>
-                    <td>
-                        TV
-                    </td>
-                    <td>
-                        Villareal B
-                    </td>
-                </tr>
+        <table class="col-12 PeuPag">
+            <tr>
+                <th>Club</th>
+                <th>Primer equipo</th>
+                <th>Fans</th>
+                <th>Actualidad</th>
+                <th>Más equipos</th>
+            </tr>
+            <tr>
+                <td>Datos del club</td>
+                <td>Plantilla</td>
+                <td>Abonate</td>
+                <td>Noticias</td>
+                <td>Villareal Masculino</td>
+            </tr>
+            <tr>
+                <td>Contacto</td>
+                <td>Resultados</td>
+                <td>Atención al abonado</td>
+                <td>TV</td>
+                <td>Villareal B</td>
+            </tr>
+            <tr>
+                <td>Entrenador</td>
+                <td>Próximos partidos</td>
+                <td>Redes sociales</td>
+                <td>Patrocinadores</td>
+                <td>Villareal Femenino</td>
+            </tr>
+            <tr>
+                <td>Estadio</td>
+                <td>Lesiones y sanciones</td>
+                <td>Foro de aficionados</td>
+                <td>Streaming en vivo</td>
+                <td>Villareal Juvenil A</td>
+            </tr>
+            <tr>
+                <td>Tienda oficial</td>
+                <td>Estadísticas</td>
+                <td>Eventos y promociones</td>
+                <td>Entrevistas y ruedas de prensa</td>
+                <td>Villareal Juvenil B</td>
+            </tr>
         </table>
-        <ul>
-            <li><a href="https://www.facebook.com/villarrealcf/"><img src="./img/facebook-logo.png" alt="logo-facebook"></a></li>
-            <li><a href="https://www.instagram.com/villarrealcf/?hl=es"><img src="./img/logo-instagram.png" alt="logo-
+        <ul id="redesSoc">
+            <li class="xarxa col-1"><a href="https://www.facebook.com/villarrealcf/">
+                <img src="./img/facebook-logo.png" alt="logo-facebook"></a></li>
+            <li class="xarxa col-1"><a href="https://www.instagram.com/villarrealcf/?hl=es">
+                <img src="./img/logo-instagram.png" alt="logo-
                 instagram"></a></li>
-            <li><a href="https://www.tiktok.com/@villarrealcf?lang=es"><img src="./img/logo-tiktok.png" alt="logo-tiktok"></a></li>
-            <li><a href="https://twitter.com/VillarrealCF?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+            <li class="xarxa col-1"><a href="https://www.tiktok.com/@villarrealcf?lang=es">
+                <img src="./img/logo-tiktok.png" alt="logo-tiktok"></a></li>
+            <li class="xarxa col-1"><a href="https://twitter.com/VillarrealCF?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
                 <img src="./img/twitter-logo.png" alt="twitter-logo"></a></li>
-            <li><a href="https://www.youtube.com/@villarrealcf/featured"><img src="./img/youtube-logo.png" 
+            <li class="xarxa col-1"><a href="https://www.youtube.com/@villarrealcf/featured">
+                <img src="./img/youtube-logo.png" 
                 alt="youtube-logo"></a></li>
         </ul>
-        <p>&copy; Villarreal Club de Fútbol</p>
+        <p id="copy">&copy; Villarreal Club de Fútbol</p>
     </footer>
 </body>
 </html>

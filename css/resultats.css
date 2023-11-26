@@ -1,0 +1,21 @@
+
+
+caption{
+    padding-top: 3em;
+}
+.jornada{
+    font-size: 2em;
+    float: left;
+}
+.jornada td{
+    width: 16.66%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 1em;
+}
+.jornada th{
+    padding-top: 2em;
+}
+.jornada img{
+    width: 100%;
+}

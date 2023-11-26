@@ -1,0 +1,16 @@
+.row{
+    text-align: center;
+}
+
+h2{
+    font-size: 3em;
+    padding: 1em;
+}
+
+figure figcaption{
+    font-size: 1.5em;
+}
+
+.carta{
+    border-radius: 5px;
+}

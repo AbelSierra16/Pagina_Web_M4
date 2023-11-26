@@ -1,0 +1,27 @@
+.fila{
+    list-style: none;   
+    line-height: 3;
+}
+p{
+    line-height: 2;
+    margin-bottom: 5%;
+}
+.fundacions{
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.col-superiors{
+    height: 100vh;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+iframe{
+    width: 93%;
+    height: 100%;
+    padding: 3px;
+    border: 0;
+   
+    }

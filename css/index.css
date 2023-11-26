@@ -1,0 +1,57 @@
+.seccion{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  #destacados{
+    width: 50%;
+    float: left;
+
+  }
+  #destacados h2{
+    font-size: 3em;
+    text-align: center;
+  }
+  #destacados img{
+    width: 95.5%;
+  }
+  #destacados p{
+    text-decoration: none;
+    color:white;
+
+  }
+  .info a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2em;
+
+  }
+  .info a:hover{
+    color: rgb(249, 249, 38);
+    text-decoration: underline;
+  }
+  .info li{
+    text-align: center;
+  }
+
+  .tablero-superior{
+    width: 40%;
+    margin-top: 5%;
+    float: left;
+  }
+  
+  .tablero-inferior{
+    width: 22%;
+    float: left;
+    margin: 1rem;
+    
+  }
+
+  
+  .tablero-inferior a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+
+
